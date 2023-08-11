@@ -1,17 +1,16 @@
-# Flatbox rev5B
+# Flatbox rev5
 
-This is rev5B of the Flatbox. In this version an [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) board is soldered onto the main PCB.
-In this version L3 & R3 have been relocated to allow for usage during play (bindable macro's like MK+HK, burst, taunt, etc). 
+This is rev5 of the Flatbox. In this version an [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) board is soldered onto the main PCB.
 
 To make one you will need:
 
 * [3D printed case parts](3d-printed-case) - top and bottom
 * [the Flatbox PCB](pcb)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
-* 12-14x Kailh low profile (choc v1) switches of your choice
+* 12x Kailh low profile (choc v1) switches of your choice
 * (optionally) 12x Kailh low profile hotswap sockets
 * [3D printed buttoncaps](../3d-printed-buttoncaps)
-* 4-6x 6x6x5mm tact switches
+* 6x 6x6x5mm tact switches
 * 7x M3x6 flat head screws
 * some kind of rubber feet or non-slip padding for the bottom
 * a soldering iron
@@ -22,9 +21,7 @@ The PCB can be ordered from a number of online services using the included [Gerb
 
 The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker).
 
-Solder the jumpers for L3 & R3 at the locations they will be used (jumpers are located on the rear of the board).
-
-You don't have to use the [code](../firmware-rp2040) included here, you can use any other RP2040-compatible firmware. The included firmware works with the PS3 and PC. The rev 5 firmware is still applicable.
+You don't have to use the [code](../firmware-rp2040) included here, you can use any other RP2040-compatible firmware. The included firmware works with the PS3 and PC.
 
 To flash the firmware, connect the board to a computer with a USB cable, then press the RESET button while holding the BOOT button on the RP2040-Zero. A drive named "RPI-RP2" should appear. Copy the [flatbox-rev5.uf2](firmware/flatbox-rev5.uf2) file to that drive. That's it.
 
@@ -34,15 +31,6 @@ To flash the firmware, connect the board to a computer with a USB cable, then pr
 
 ![Flatbox rev5 exploded view of the 3D printed case](images/Flatbox-rev5-exploded.png)
 
-## Flatbox rev5B
-
-Relocated L3 & R3 to allow for usage during play (bindable macro's like MK+HK, burst, taunt, etc). If the new location of the buttons will be used, small solder jumpers on the back of the PCB must be bridged. If the new locations will not be used, for example if used in the original case design, similar jumpers near the original location must be bridged.
-
-Additional Requirements:
-* 1-2x Kailh low profile (choc v1) switches of your choice
-
-
-### info
 PCB design licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 PCB design uses the following:
