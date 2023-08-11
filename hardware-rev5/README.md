@@ -35,6 +35,10 @@ To flash the firmware, connect the board to a computer with a USB cable, then pr
 
 Relocated L3 & R3 to allow for usage during play (bindable macro's like MK+HK, burst, taunt, etc). If the new location of the buttons will be used, small solder jumpers on the back of the PCB must be bridged. If the new locations will not be used, for example if used in the original case design, similar jumpers near the original location must be bridged.
 
+Additional Requirements:
+* 1-2x Kailh low profile (choc v1) switches of your choice
+
+
 ### info
 PCB design licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
