@@ -6,7 +6,7 @@ This repository contains 3D-printable models, PCB design files and code needed t
 
 There are five major versions of the Flatbox. As this is a fork, the three I do not have modifications planned for have been dropped, find them [here](https://github.com/jfedor2/flatbox). They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
 
-version | [rev4](hardware-rev4) | [rev5B](hardware-rev5b)
+version | [rev4](rev4b-pcb) | [rev5B](rev5b-pcb)
 ------- | --------------------- | ---------------------
 case dimensions | 218x130x10mm | 218x126x10mm
 compatibility (using provided firmware) | PC, PS3 | PC, PS3
