@@ -10,8 +10,8 @@ version | [rev4](rev4b-pcb) | [rev5B](rev5b-pcb)
 ------- | --------------------- | ---------------------
 case dimensions | 218x130x10mm | 218x126x10mm
 compatibility (using provided firmware) | PC, PS3 | PC, PS3
-add-on board | - | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
-onboard chip | RP2040 | - | -
+add-on board | - | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
+onboard chip | RP2040 | - 
 port | USB-C | USB-C
 SMT assembly required | yes | no
 firmware | [RP2040](firmware-rp2040) | [RP2040](firmware-rp2040)
