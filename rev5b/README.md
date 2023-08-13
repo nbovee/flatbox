@@ -6,8 +6,8 @@ In this version L3 & R3 have been relocated to allow for usage during play (bind
 
 To make one you will need:
 
-* [3D printed case parts](3d-printed-case) - Select a top and bottom. Two colors tops are available if you have a capable printer.
-* [the Flatbox PCB](pcb)
+* [3D printed case parts](../manufacturing-files) - Select a top and bottom. Two colors tops are available if you have a capable printer.
+* [the Flatbox PCB](../manufacturing-files)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
 
 * 12-14x Kailh low profile (choc v1) switches of your choice
@@ -21,7 +21,7 @@ To make one you will need:
 
 I printed the case at 0.20mm layer height. The top part should be printed upside-down, the bottom part should be printed as-is. They don't require supports.
 
-The PCB can be ordered from a number of online services using the included [Gerber files](pcb), I used [JLCPCB](https://jlcpcb.com/) (leave all the settings at default, you can choose the PCB color). PCB thickness should be 1.6mm.
+The PCB can be ordered from a number of online services using the included [Gerber files](../manufacturing-files), I used [JLCPCB](https://jlcpcb.com/) (leave all the settings at default, you can choose the PCB color). PCB thickness should be 1.6mm.
 
 The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker).
 
