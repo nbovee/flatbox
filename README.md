@@ -1,5 +1,10 @@
 # Flatbox: Low profile hitbox-layout fightstick
 
+
+## Archived branch, left to mark a potential PR to upstream
+
+Additional changes can be found at the master branch of this repo [here](https://github.com/nbovee/flatbox)
+
 This repository contains 3D-printable models, PCB design files and code needed to make an arcade controller that looks like this:
 
 ![Assembled Flatbox](hardware-rev2/images/Flatbox-rev2b-finished-product.jpg)
