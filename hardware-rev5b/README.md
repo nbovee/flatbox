@@ -6,7 +6,7 @@ In this version L3 & R3 have been relocated to allow for usage during play (bind
 
 To make one you will need:
 
-* [3D printed case parts](3d-printed-case) - top and bottom
+* [3D printed case parts](3d-printed-case) - Select a top and bottom. Two colors tops are available if you have a capable printer.
 * [the Flatbox PCB](pcb)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
 
