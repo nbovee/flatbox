@@ -28,7 +28,11 @@ The switches can be soldered in directly to the PCB or you can use hotswap socke
 
 Solder the jumpers for L3 & R3 at the locations they will be used (jumpers are located on the rear of the board).
 
-You don't have to use the [code](../firmware-rp2040) included here, you can use any other RP2040-compatible firmware. The included firmware works with the PS3 and PC. The rev 5 firmware is still applicable.
+For the firmware you probably want to use [GP2040-CE](https://gp2040-ce.info/). Go to the [GP2040-CE downloads page](https://gp2040-ce.info/#/download) and get the UF2 file for Flatbox rev5. Do not get the file for the Waveshare RP2040-Zero, even though your stick uses it (it has a different pinout).
+
+To flash the firmware, connect the board to a computer with a USB cable, then press the RESET button while holding the BOOT button on the RP2040-Zero. A drive named "RPI-RP2" should appear. Copy the UF2 file you downloaded to that drive. That's it.
+
+(Of course you can also use any other RP2040-compatible firmware if you want.)
 
 
 To flash the firmware, connect the board to a computer with a USB cable, then press the RESET button while holding the BOOT button on the RP2040-Zero. A drive named "RPI-RP2" should appear. Copy the [flatbox-rev5.uf2](firmware/flatbox-rev5.uf2) file to that drive. That's it.
